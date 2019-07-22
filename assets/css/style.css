@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/DINNextLTArabic-Light.eot');
+    src: url('../fonts/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/DINNextLTArabic-Light.woff2') format('woff2'), url('../fonts/DINNextLTArabic-Light.woff') format('woff'), url('../fonts/DINNextLTArabic-Light.ttf') format('truetype'), url('../fonts/DINNextLTArabic-Light.svg#DIN Next LT Arabic') format('svg');
+}
+
+.no-focus-outline a:focus,
+.no-focus-outline button:focus {
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* start buy Page */
+
+.buy {
+    background-color: #f86500;
+    font-family: 'DIN Next LT Arabic';
+    text-align: center;
+}
+
+.buy h5 {
+    color: #f86500;
+    font-size: 31px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.buy .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 60%;
+    min-width: 300px;
+    padding: 40px 30px 10px 30px;
+    margin: 60px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+.buy .formDiv{
+        border-bottom: 3px solid #f86500;
+    margin: 45px 10px;
+}
+
+.buy .formDiv:last-child{
+        border-bottom: none;
+    margin: 45px 10px;
+}
+.buy img {
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.buy .tth {}
+
+.buy .ttd {}
+
+.buy .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.buy .focused .form-label {
+    transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.buy .table tr {
+    border-bottom: 1px solid rgba(248, 101, 0, 0.4);
+}
+
+.buy .table tr:last-child {
+    border-bottom: none;
+}
+
+.buy .table td,
+.table th {
+    padding: 0;
+    border: none;
+    padding: 30px 50px 15px 50px;
+}
+
+.buy .table th {
+    text-align: right;
+    font-size: 20px;
+}
+
+.buy .table td {
+    text-align: center;
+    font-size: 18px;
+}
+
+.buy .form-input.filled {
+    box-shadow: 0 1px 0 0 #f86500;
+}
+
+
+.buy p {
+    font-size: 18px;
+}
+
+
+.buy .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.buy .btn-primary:focus {
+    background: #333;
+}
+
+.buy .form-input {
+    position: relative;
+    padding: 0 5px 3px 0;
+    margin: 0;
+    width: 40%;
+    outline: 0;
+    border: 0;
+    /* box-shadow: 0 3px 0 0 #f86500; */
+    transition: box-shadow 150ms ease-out;
+    direction: ltr;
+    text-align: center;
+    border: 1px solid #f86500;
+    border-radius: 5px;
+}
+.buy .form-input.quantity {
+    margin-top: 15px;
+}
+.buy .form-input.price {
+    width: 30%;
+    margin-left: 7px;
+}
+
+.buy .btn-primary {
+    margin: 30px auto;
+    padding: 5px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff !important;
+}
+
+#decrease, #increase {
+    background: #f86500;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 15px 0px 0px 0;
+    line-height: 0;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* End buy Page */
